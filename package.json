@@ -1,0 +1,40 @@
+{
+  "name": "devjobs",
+  "version": "1.0.0",
+  "description": "Portal DevJobs con Node.js, React y mongoose.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Node",
+    "React",
+    "mongoose",
+    "express."
+  ],
+  "author": "Martin Alexander Flores Torres",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.3.2",
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.33.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "node-cron": "^3.0.2",
+    "shortid": "^2.2.16",
+    "slug": "^8.2.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  }
+}
